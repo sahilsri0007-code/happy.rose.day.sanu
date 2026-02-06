@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Rose Day ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(#ffdde1, #ee9ca7);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 80px;
+    }
+    .card {
+      background: white;
+      width: 320px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    button {
+      background: crimson;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    #rose {
+      display: none;
+      font-size: 60px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h2>Hey Deepika ❤️</h2>
+    <p>This is for you.</p>
+    <button onclick="showRose()">Click for your rose 🌹</button>
+    <div id="rose">
+      🌹<br>
+      <p>You make my days brighter.<br>Happy Rose Day 💕</p>
+      <p><b>— [Sahil your baby]</b></p>
+    </div>
+  </div>
+
+  <script>
+    function showRose() {
+      document.getElementById("rose").style.display = "block";
+    }
+  </script>
+</body>
+</html>
